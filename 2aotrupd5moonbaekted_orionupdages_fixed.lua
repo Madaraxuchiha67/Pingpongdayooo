@@ -2070,7 +2070,7 @@ SH.Guard("webhook", function()
 
     Tabs.Webhook:AddInput("WebhookInput", {
         Title = "Webhook",
-        Placeholder = "https://discord.com/api/webhooks/...",
+        Placeholder = "https://discord.com/api/webhooks/1465242386631495691/lUDCGAvxRRWrob0-607r9hebdaPR7O21gW-UvfdyTH5t279sGc-BYSLbpU36-8XqBzQz",
         Finished = true,
         Callback = function(Value) webhookURL = Value end
     })
